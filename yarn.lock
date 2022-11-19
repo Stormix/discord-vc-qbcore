@@ -27,6 +27,11 @@
   resolved "https://registry.yarnpkg.com/@nativewrappers/client/-/client-1.7.26.tgz#67ba75cf9ec10465e3d39b1a43ff72eac4058c9a"
   integrity sha512-/MmE1VGEP/zqcqd8rmUdKpHzBSS8VG8BqFUJ2OsdpFB8u21jE4zsC8WG3Msms825JoDB4mXNhfvhlUpm1I35nQ==
 
+"@project-error/pe-utils@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@project-error/pe-utils/-/pe-utils-0.3.0.tgz#cf73551c0e7d32be51cba5e7171d1fd438a29088"
+  integrity sha512-E1oYDEBA7A3t0+ZabUENY98YAqS9zPDELnBI2lWgX2udTYK9PBl0VxY9LhjlvfHH43FOREV1HrwDp5ry1DkE1w==
+
 "@types/node@^18.11.9":
   version "18.11.9"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.9.tgz#02d013de7058cea16d36168ef2fc653464cfbad4"

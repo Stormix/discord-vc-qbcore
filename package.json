@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@nativewrappers/client": "^1.7.26",
+    "@project-error/pe-utils": "^0.3.0",
     "qbcore.js": "^1.5.1"
   },
   "devDependencies": {
