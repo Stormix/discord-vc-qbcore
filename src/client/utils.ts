@@ -12,3 +12,5 @@ class Utils extends ClientUtils {
 }
 
 export const utils = new Utils();
+
+export const Delay = (ms: number) => new Promise((res) => setTimeout(res, ms));

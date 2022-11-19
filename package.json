@@ -10,16 +10,24 @@
     "watch": "node dev.build.js"
   },
   "dependencies": {
+    "@jgoz/esbuild-plugin-typecheck": "^2.0.0",
     "@nativewrappers/client": "^1.7.26",
     "@project-error/pe-utils": "^0.3.0",
-    "qbcore.js": "^1.5.1"
+    "qbcore.js": "^1.5.1",
+    "typescript": "^4.9.3"
   },
   "devDependencies": {
     "@citizenfx/client": "^2.0.6014-1",
     "@citizenfx/server": "^2.0.6014-1",
     "@types/node": "^18.11.9",
+    "@typescript-eslint/eslint-plugin": "^5.43.0",
+    "@typescript-eslint/parser": "^5.43.0",
     "esbuild": "^0.15.13",
     "esbuild-node-externals": "^1.5.0",
+    "eslint": "^8.28.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1",
     "ts-loader": "^9.4.1"
   }
 }

@@ -1,5 +1,6 @@
 const { build } = require('esbuild');
 const { resolve } = require('path');
+const { typecheckPlugin } = require('@jgoz/esbuild-plugin-typecheck');
 
 const buildPath = resolve(__dirname, 'dist');
 
@@ -13,6 +14,11 @@ build({
   target: 'node14',
   watch: true,
   logLevel: 'info',
+  plugins: [
+    typecheckPlugin({
+      configFile: './src/server/tsconfig.json',
+    }),
+  ],
 }).catch(() => process.exit(1));
 
 // Client
@@ -25,4 +31,9 @@ build({
   target: 'es2020',
   watch: true,
   logLevel: 'info',
+  plugins: [
+    typecheckPlugin({
+      configFile: './src/client/tsconfig.json',
+    }),
+  ],
 }).catch(() => process.exit(1));
